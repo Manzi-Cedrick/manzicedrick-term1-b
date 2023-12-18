@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class McbackendCalculatorApplication {
+public class McBackendCalculatorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(McbackendCalculatorApplication.class, args);
+		SpringApplication.run(McBackendCalculatorApplication.class, args);
 	}
 
 }
