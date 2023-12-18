@@ -2,7 +2,9 @@ package com.example.demo.services.impls;
 
 import com.example.demo.exceptions.InvalidOperationException;
 import com.example.demo.services.IMathOperatorService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class MathOperatorServiceImpl implements IMathOperatorService {
     @Override
     public double doMath(double operand1, double operand2, String operation) throws InvalidOperationException {
